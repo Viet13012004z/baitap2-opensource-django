@@ -5,22 +5,9 @@
 <img width="296" height="591" alt="image" src="https://github.com/user-attachments/assets/1d351c49-ded2-412b-a9d5-d9b09c824274" />
 
 # 2. Cấu trúc thư mục 
-tiem_cam_do/
-├── docker-compose.yml        # Định nghĩa 3 service
-└── django_app/
-    ├── Dockerfile            # Build image Django
-    ├── requirements.txt      # Thư viện Python
-    ├── manage.py             # Django management
-    ├── config/
-    │   ├── settings.py       # Cấu hình Django
-    │   └── urls.py           # URL routing
-    └── core/
-        ├── models.py         # Định nghĩa các bảng CSDL
-        ├── admin.py          # Cấu hình trang Admin
-        ├── views.py          # Xử lý request
-        ├── urls.py           # URL của app core
-        └── templates/core/
-            └── home.html     # Trang con nợ đến hạn
+
+<img width="474" height="402" alt="image" src="https://github.com/user-attachments/assets/d60e825c-6017-4123-9a8c-0a7e3458438b" />
+
 # 3. Tạo các file cấu hình
 
 File này hướng dẫn Docker cách build image cho Django:
