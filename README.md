@@ -35,13 +35,13 @@ EXPOSE 8000
 
 Khởi động Django (0.0.0.0 để nhận từ bên ngoài container)
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
-
+```
 # requirements.txt
 
 <img width="660" height="75" alt="image" src="https://github.com/user-attachments/assets/c500271c-34e8-4117-a6fc-fbe03fa08d44" />
 
 # Docker-compose.yml định nghĩa 3 service 
-
+```
 version: '3.8'
 services:
   db:
