@@ -12,9 +12,11 @@
 
 File này hướng dẫn Docker cách build image cho Django:
 
+```dockerfile
 FROM python:3.11-slim
 
 Cài thư viện hệ thống để build mysqlclient
+
 RUN apt-get update && apt-get install -y \
     default-libmysqlclient-dev pkg-config gcc \
     && rm -rf /var/lib/apt/lists/*
